@@ -1,4 +1,5 @@
 program combinacao(input{teclado},output{video});{algoritmo de combinacao}
+         uses crt;
 	const
 		limiteMin=1;
 		limiteMax=10;
@@ -35,4 +36,5 @@ program combinacao(input{teclado},output{video});{algoritmo de combinacao}
 		else
 			resultado := 'Erro, numeros fora da faixa permitida';
 		writeln(output,resultado);
+         readkey;
 	end.
